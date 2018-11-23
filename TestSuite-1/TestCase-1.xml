@@ -27,29 +27,6 @@
       </con:restRequest>
     </con:config>
   </con:testStep>
-  <con:testStep type="restrequest" name="Copy of - Request 1" id="3195e648-8507-4fb5-98f7-21afef18e56f">
-    <con:settings/>
-    <con:config service="Service 1" resourcePath="/Service.svc/ConStroka" methodName="" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-      <con:restRequest name="Copy of - Request 1" id="ec9d64f1-fd13-4cae-b8b6-ad2e7254d2cb" mediaType="application/json" postQueryString="false">
-        <con:settings>
-          <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
-        </con:settings>
-        <con:endpoint>http://localhost:8080/clone</con:endpoint>
-        <con:request/>
-        <con:originalUri>http://localhost/WCFREST/Service.svc/ConStroka</con:originalUri>
-        <con:credentials>
-          <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
-          <con:authType>No Authorization</con:authType>
-        </con:credentials>
-        <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
-        <con:jmsPropertyConfig/>
-        <con:parameters>
-          <con:entry key="x" value="123"/>
-          <con:entry key="y" value="abc"/>
-        </con:parameters>
-      </con:restRequest>
-    </con:config>
-  </con:testStep>
   <con:properties/>
   <con:reportParameters/>
 </con:testCase>
