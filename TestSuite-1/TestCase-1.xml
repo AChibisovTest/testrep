@@ -21,8 +21,8 @@
         <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
         <con:jmsPropertyConfig/>
         <con:parameters>
-          <con:entry key="x" value="12345"/>
-          <con:entry key="y" value="abcde"/>
+          <con:entry key="x" value="123"/>
+          <con:entry key="y" value="abc"/>
         </con:parameters>
       </con:restRequest>
     </con:config>
