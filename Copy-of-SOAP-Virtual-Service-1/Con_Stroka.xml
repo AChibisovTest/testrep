@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:mockOperation name="Con_Stroka" id="278a8f39-d67a-4653-b97e-81509dd35d57" interface="Test_serviceSoap" operation="Con_Stroka" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="278a8f39-d67a-4653-b97e-81509dd35d57fileName">Con_Stroka</con:setting>
+  </con:settings>
+  <con:defaultResponse>Response 1</con:defaultResponse>
+  <con:dispatchStyle>SEQUENCE</con:dispatchStyle>
+  <con:dispatchConfig/>
+  <con:dispatchXPath/>
+  <con:routeScript/>
+  <con:response name="Response 1" id="30c0b78c-a367-467a-a4d3-a3713661b12f" httpResponseStatus="200" encoding="UTF-8" compressedBodyContent="aced00057372002f636f6d2e657669776172652e736f617075692e696d706c2e737570706f72742e436f6d7072657373656456616c7565000b8b02c748eeab0200025a000a636f6d707265737365645b0004646174617400025b4278700070" dataSource="">
+    <con:settings/>
+    <con:responseContent><![CDATA[<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <soap:Body>
+      <Con_StrokaResponse xmlns="http://localhost/test_service/Service1.asmx">
+         <Con_StrokaResult>
+${#MockResponse#Request#declare namespace ser='http://localhost/test_service/Service1.asmx'; //ser:Con_Stroka[1]/ser:x[1]} 
+${#MockResponse#Request#declare namespace ser='http://localhost/test_service/Service1.asmx'; //ser:Con_Stroka[1]/ser:y[1]}</Con_StrokaResult>
+      </Con_StrokaResponse>
+   </soap:Body>
+</soap:Envelope>]]></con:responseContent>
+    <con:wsaConfig mustUnderstand="NONE" version="200508" action="http://localhost/test_service/Service1.asmx/Con_Stroka"/>
+  </con:response>
+</con:mockOperation>

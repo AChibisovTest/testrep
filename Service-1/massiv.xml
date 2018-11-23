@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="" path="massiv" id="3f020764-9569-4cc2-b9ad-25a8e5a11294" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="3f020764-9569-4cc2-b9ad-25a8e5a11294fileName">massiv</con:setting>
+  </con:settings>
+  <con:parameters/>
+  <con:method name="" id="2d15ea17-ef8b-4f17-9ec9-d7d3067957be" method="GET">
+    <con:settings/>
+    <con:parameters/>
+    <con:request name="Request 1" id="974aae6d-8508-457b-ae59-5a11847bea2f" mediaType="application/json">
+      <con:settings/>
+      <con:endpoint>http://rapis02.aqa.com.ru</con:endpoint>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
+      <con:parameters/>
+    </con:request>
+  </con:method>
+</con:resource>

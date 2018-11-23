@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="" path="ConStroka" id="6572c911-89f3-4128-b809-5b73d67a5d57" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="6572c911-89f3-4128-b809-5b73d67a5d57fileName">ConStroka</con:setting>
+  </con:settings>
+  <con:parameters/>
+  <con:method name="" id="4a9bfc9f-72fe-491d-9ac7-a6fb0d620366" method="GET">
+    <con:settings/>
+    <con:parameters>
+      <con:parameter>
+        <con:name>x</con:name>
+        <con:value xsi:nil="true"/>
+        <con:style>QUERY</con:style>
+        <con:default xsi:nil="true"/>
+      </con:parameter>
+      <con:parameter>
+        <con:name>y</con:name>
+        <con:value xsi:nil="true"/>
+        <con:style>QUERY</con:style>
+        <con:default xsi:nil="true"/>
+      </con:parameter>
+    </con:parameters>
+    <con:request name="Request 1" id="ec9d64f1-fd13-4cae-b8b6-ad2e7254d2cb" mediaType="application/json" postQueryString="false">
+      <con:settings>
+        <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+      </con:settings>
+      <con:endpoint>http://localhost:8080/</con:endpoint>
+      <con:request/>
+      <con:originalUri>http://localhost/WCFREST/Service.svc/ConStroka</con:originalUri>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
+      <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+      <con:jmsPropertyConfig/>
+      <con:parameters>
+        <con:entry key="x" value="a"/>
+        <con:entry key="y" value="b"/>
+      </con:parameters>
+    </con:request>
+    <con:request name="Copy of Request 1" id="ec9d64f1-fd13-4cae-b8b6-ad2e7254d2cb" mediaType="application/json" postQueryString="false">
+      <con:settings>
+        <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+      </con:settings>
+      <con:endpoint>http://localhost:8080/clone</con:endpoint>
+      <con:request/>
+      <con:originalUri>http://localhost/WCFREST/Service.svc/ConStroka</con:originalUri>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
+      <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+      <con:jmsPropertyConfig/>
+      <con:parameters>
+        <con:entry key="x" value="a"/>
+        <con:entry key="y" value="b"/>
+      </con:parameters>
+    </con:request>
+    <con:request name="Copy of Request 1 2" id="ec9d64f1-fd13-4cae-b8b6-ad2e7254d2cb" mediaType="application/json" postQueryString="false">
+      <con:settings>
+        <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+      </con:settings>
+      <con:endpoint>http://localhost:8080/WCFREST</con:endpoint>
+      <con:request/>
+      <con:originalUri>http://localhost/WCFREST/Service.svc/ConStroka</con:originalUri>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
+      <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+      <con:jmsPropertyConfig/>
+      <con:parameters>
+        <con:entry key="x" value="a"/>
+        <con:entry key="y" value="b"/>
+      </con:parameters>
+    </con:request>
+  </con:method>
+</con:resource>
